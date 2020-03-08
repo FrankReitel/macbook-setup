@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-e_header "Creating SSH"
-ssh-keygen -t rsa -b 4096 -C $USER_EMAIL
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-e_success "SSH created"
+#e_header "Creating SSH"
+#ssh-keygen -t rsa -b 4096 -C $USER_EMAIL
+#eval "$(ssh-agent -s)"
+#ssh-add ~/.ssh/id_rsa
+#e_success "SSH created"
 
 e_header "Installing GIT"
 brew install git
@@ -30,17 +30,17 @@ e_header "Updating PIP"
 pip install --upgrade pip
 e_success "Pip Updated"
 
-e_header "Installing SASS"
-gem install sass
-e_success "SASS installed"
+#e_header "Installing SASS"
+#gem install sass
+#e_success "SASS installed"
 
-e_header "Installing Showterm"
-gem install showterm
-e_success "Showterm installed"
+#e_header "Installing Showterm"
+#gem install showterm
+#e_success "Showterm installed"
 
-e_header "Installing Heroku Toolbet"
-brew install heroku/brew/heroku
-e_success "Heroku Toolbet installed"
+#e_header "Installing Heroku Toolbet"
+#brew install heroku/brew/heroku
+#e_success "Heroku Toolbet installed"
 
 e_header "Installing NGROK"
 brew cask install ngrok
@@ -70,13 +70,13 @@ e_header "Installing VS Code"
 brew cask install visual-studio-code
 e_success "VS Code installed"
 
-e_header "Installing Postgres"
-brew install postgresql
-e_success "Postgres installed"
+#e_header "Installing Postgres"
+#brew install postgresql
+#e_success "Postgres installed"
 
-e_header "Installing SQLite"
-brew install sqlite
-e_success "SQLite installed"
+#e_header "Installing SQLite"
+#brew install sqlite
+#e_success "SQLite installed"
 
 e_header "Installing Quick Look Plugins"
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
@@ -86,22 +86,41 @@ e_header "Installing Antigen"
 brew install antigen
 e_success "Antigen installed"
 
-e_header "Installing JSON processor"
-brew install jq
-e_success "JSON processor installed"
+#e_header "Installing JSON processor"
+#brew install jq
+#e_success "JSON processor installed"
 
 e_header "Installing Pipenv"
 brew install pipenv
 e_success "Pipenv installed"
 
-e_header "Installing CircleCI"
-brew install circleci
-e_success "CircleCI installed"
+#e_header "Installing CircleCI"
+#brew install circleci
+#e_success "CircleCI installed"
 
 e_header "Installing nmap"
 brew install nmap
 e_success "nmap installed"
 
-e_header "Installing itermocil"
-brew install itermocil
-e_success "itermocil installed"
+#e_header "Installing itermocil"
+#brew install itermocil
+#e_success "itermocil installed"
+
+brew cask install 1password
+brew cask install 1password-cli
+brew cask install cheatsheet
+brew cask install github
+brew cask install google-chrome
+brew cask install karabiner-elements
+brew cask install kindle-comic-converter
+#brew cask install mactex
+#brew cask install mactex-no-gui
+brew cask install iterm2
+brew cask install oracle-jdk
+brew cask install scrivener
+brew cask install shift
+brew cask install skitch
+brew cask install slite
+brew cask install spotify-now-playing
+brew cask install superproductivity
+brew cask install vlc

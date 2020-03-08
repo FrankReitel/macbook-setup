@@ -4,18 +4,36 @@ e_header "Installing Keynote"
 mas install keynote
 e_success "Keynote installed"
 
-e_header "Installing Monosnap"
-mas install 540348655
-e_success "Monosnap installed"
+#e_header "Installing Monosnap"
+#mas install 540348655
+#e_success "Monosnap installed"
 
-e_header "Installing Theine"
-mas install 955848755
-e_success "Theine installed"
+#e_header "Installing Theine"
+#mas install 955848755
+#e_success "Theine installed"
 
-e_header "Installing Be Focused"
-mas install 973134470
-e_success "Be Focused installed"
+#e_header "Installing Be Focused"
+#mas install 973134470
+#e_success "Be Focused installed"
 
-e_header "Installing Day One"
-mas install 1055511498
-e_success "Day One installed"
+#e_header "Installing Day One"
+#mas install 1055511498
+#e_success "Day One installed"
+
+e_header "Installing SnippetsLab"
+mas install 1006087419
+e_success "Keynote SnippetsLab"
+
+e_header "Installing Kindle"
+mas install 405399194
+e_success "Kindle installed"
+
+#e_header "Installing Spotify"
+#mas install 324684580
+#e_success "Spotify installed"
+e_header "Installing Battery Monitor"
+mas install 836505650
+e_success "Battery Monitor installed"
+
+#bettersnaptool
+mas install 417375580
