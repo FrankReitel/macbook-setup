@@ -1,3 +1,14 @@
+# Install Powerline fonts
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+
+# https://github.com/agnoster/agnoster-zsh-theme
 # Antigen
 source $(brew --prefix)/share/antigen/antigen.zsh
 
@@ -15,7 +26,7 @@ antigen apply
 # ZSH
 ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="bullet-train"
+ZSH_THEME="agnoster"
 
 plugins=(git brew extract)
 plugins+=(osx node npm python)

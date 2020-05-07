@@ -8,6 +8,10 @@ e_success "Homebrew Cask installed"
 #brew cask install brave-browser
 #e_success "Brave installed"
 
+e_header "Installing Evernote"
+brew cask install evernote
+e_success "Evernote installed"
+
 e_header "Installing Firefox"
 brew cask install firefox
 e_success "Firefox installed"

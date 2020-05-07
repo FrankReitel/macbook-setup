@@ -1,6 +1,6 @@
 
-#source arrows
-#source inputs
+source arrows
+source inputs
 source packages
 source utils
 source development

@@ -12,9 +12,9 @@ e_success "Keynote installed"
 #mas install 955848755
 #e_success "Theine installed"
 
-#e_header "Installing Be Focused"
-#mas install 973134470
-#e_success "Be Focused installed"
+e_header "Installing Be Focused"
+mas install 973134470
+e_success "Be Focused installed"
 
 #e_header "Installing Day One"
 #mas install 1055511498
@@ -36,4 +36,11 @@ mas install 836505650
 e_success "Battery Monitor installed"
 
 #bettersnaptool
+e_header "Installing BetterSnapTool"
 mas install 417375580
+e_success "BetterSnapTool installed"
+
+#todoist
+e_header "Installing ToDoist"
+mas install 585829637
+e_success "ToDoist installed"
